@@ -17,11 +17,13 @@
         android:text="@string/text_angle"/>
     <EditText
         android:id="@+id/edit_engle"
+        android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/text_angle"
         />
     <ImageView
+        android:id="@+id/imgv"
         android:layout_below="@+id/edit_engle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
